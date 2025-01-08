@@ -38,7 +38,7 @@ app.post('/' , async (req : Request,  res : Response )=>{
         return res.status(200).json(response)
     }
         catch(e){
-            return res.status(500).json({
+            return res.status(401).json({
                 "message" : "failed"
             })     
         }
