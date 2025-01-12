@@ -5,7 +5,7 @@ import zod from "zod"
 const app = express();
 app.use(express.json())
 var corsOptions = {
-    origin: ["https://instinctive-studio-quyl-assign.vercel.app"],
+    origin: ["http://localhost:5174"],
     optionsSuccessStatus: 200 // For legacy browser support
     }
     
